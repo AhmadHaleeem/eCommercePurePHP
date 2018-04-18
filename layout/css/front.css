@@ -1,0 +1,300 @@
+body {
+  background-color: #F4F4F4;
+  font-size: 16px;
+
+
+}
+h1 {
+    color: #666;
+   margin: 40px 0;
+   font-size: 60px;
+   font-weight: bold;
+
+}
+.input-container {
+ position: relative;
+}
+.Asterisk {
+    position: absolute;
+    font-size: 25px;
+    color: #cd1111;
+    right: 10px;
+    top: 10px;
+}
+.main-form .Asterisk {
+  position: absolute;
+  font-size: 30px;
+  color: #cd1111;
+  right: 30px;
+  top: 10px;
+}
+
+/* Start Navbar */
+
+.navbar {border-radius: 0;margin-bottom: 0}
+.navbar-brand {font-size: 1em;}
+
+.nav>li>a,
+.navbar-brand {padding: 15px 12px}
+.navbar-inverse .navbar-nav>.open>a,
+ .navbar-inverse .navbar-nav>.open>a:focus,
+  .navbar-inverse .navbar-nav>.open>a:hover,
+  .dropdown-menu
+  {background-color: #3498db}
+
+ .navbar-right .dropdown-menu {right: none; left: 0;}
+
+  .dropdown-menu {
+  padding: 0;
+  font-size: 1em;
+  border: none;
+  border-radius: 0;
+
+  }
+  .dropdown-menu>li>a {
+    color: #fff;
+    padding: 10px 15px
+  }
+  .form-control {
+    position: relative;
+  }
+  .show-pass {
+    position: absolute;
+    right: -21px;
+    top: 8px;
+  }
+/* End Navbar */
+.price-tag {
+  background: #bebebe;
+  position: absolute;
+  top: 15px;
+  left: 16px;
+  padding: 2px 8px;
+  color: #fff;
+}
+/* Start manage */
+.main-table {
+      -Webkit-box-shadow: 0 3px 10px #ccc;
+      -moz-box-shadow: 0 3px 10px #ccc;
+      -o-box-shadow: 0 3px 10px #ccc;
+}
+.main-table tr:first-child td {
+  background-color: #333;
+  color: #fff;
+
+}
+.main-table td {
+  background-color: #fff;
+  vertical-align: middle !important;
+}
+.main-table .btn {
+  padding: 3px 10px;
+}
+.activate {
+  margin-left: 5px;
+}
+/* End manage */
+
+
+/**** Start Upper Bar *****/
+.upper-div {
+  background-color: #fff
+}
+.my-info .img-circle {
+  height: 32px;
+  width: 32px;
+}
+
+/**** End Upper Bar *****/
+
+
+/**** Start Login Page *****/
+.login-page form {
+  margin: auto;
+  max-width: 400px;
+}
+.login-page .form-control {
+  margin-bottom: 10px;
+}
+.btn-primary {
+  margin-bottom: 10px;
+}
+.login-page h1 span.selected {
+  color: #337AB7
+}
+.login-page h1 span {
+  cursor: pointer;
+
+}
+.login-page .signup {
+  display: none;
+}
+.btn-success {
+  margin-bottom: 10px
+}
+.form-control {
+  height: 46px;
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+}
+.the-errors {
+  margin: auto;
+  max-width: 400px;
+
+}
+.the-errors .error {
+  padding: 10px;
+  text-align: left;
+  border-left: 5px solid #cd6858;
+  background-color: #fff;
+  margin-bottom: 8px;
+  border-right: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #919191;
+}
+.msg {
+  padding: 10px;
+  text-align: left;
+  border-left: 5px solid #5CB85C;
+  background-color: #fff;
+  margin-bottom: 8px;
+  border-right: 1px solid #e0e0e0;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #919191;
+}
+/**** End Login Page *****/
+
+
+/**** Start MyProfile Page *****/
+
+.information {
+  margin: 20px 0 0;
+}
+.information .btn {
+  margin-top: 10px;
+}
+.panel-body ul {
+  margin: 0
+}
+.panel-body ul li {
+  padding: 10px;
+}
+
+.panel-body ul li:nth-child(odd){
+  background-color: #eee
+}
+.panel-body ul li span {
+  width: 155px;
+  display: inline-block;
+}
+.selectboxit-container span,
+ .selectboxit-container .selectboxit-options a {
+   height: 46px;
+   line-height: 46px;
+}
+.thumbnail>img {
+    margin-right: auto;
+    margin-left: auto;
+    height: 230px;
+}
+.thumbnail .caption div {
+  font-weight: bold;
+  text-align: right;
+  color: #AAA;
+  font-size: 13px;
+}
+
+.my-comments .panel-body .one {
+  margin-left: 11px;
+  font-weight: bold;
+
+}
+
+/**** End MyProfile Page *****/
+.item-info h2 {
+  padding: 10px;
+  margin: 0
+}
+.item-info p {
+  padding: 10px;
+}
+.item-info ul li {
+  padding: 10px;
+}
+
+.item-info ul li:nth-child(odd){
+  background-color: #e2e2e2
+}
+.item-info ul li span {
+  width: 100px;
+  display: inline-block;
+}
+.item-info a {
+  display: inline-block;
+  padding: 2px 10px;
+  background-color: #e2e2e2;
+  color: #666;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.custom-hr {
+  border: .5px solid #919191;
+}
+h3 {
+  margin: 0 0 10px;
+  color: #6d6d6d
+}
+.add-comment textarea {
+  display: block;
+  height: 120px;
+  width: 500px;
+  margin-bottom: 10px;
+}
+.comment-box {
+  margin-bottom: 10px;
+}
+.comment-box img {
+  max-width: 100px;
+  margin-bottom: 10px;
+}
+.comment-box .lead {
+  position: relative;
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-top: 30px;
+}
+.comment-box .lead:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 13px;
+  border-style: solid;
+  border-color: transparent #e0e0e0 transparent transparent;
+  position: absolute;
+  top: 12px;
+  left: -26px
+}
+.approve-status {
+  background-color: #b85a5a;
+  color: #fff;
+  position: absolute;
+  top: 45px;
+  left: 16px;
+  padding: 3px 5px;
+}
+.item-box p {
+  height: 44px;
+  max-height: 44px;
+}
+
+.add-date {
+    color: #ac9d9d;
+    text-align: right;
+    position: absolute;
+    bottom: 19px;
+    right: 26px;
+}
